@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71bf21d8-f7cd-4250-9785-b6f1491dca2d" name="Changes" comment="" />
+    <list default="true" id="71bf21d8-f7cd-4250-9785-b6f1491dca2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Meu Game 3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Meu Game 3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/grama_sintetica_plastica_verde_zante_20mm_rolo_2x5m_89739125_0001_300x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/grama_sintetica_plastica_verde_zante_20mm_rolo_2x5m_89739125_0001_300x300.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/istockphoto-1400136454-612x612.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/istockphoto-1400136454-612x612.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/GameManger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Moeda.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -25,6 +41,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -100,6 +117,13 @@
       <workItem from="1725971058420" duration="1306000" />
       <workItem from="1725972419392" duration="25000" />
       <workItem from="1725974065608" duration="409000" />
+      <workItem from="1726494021605" duration="897000" />
+      <workItem from="1726494967419" duration="37000" />
+      <workItem from="1726495214963" duration="2925000" />
+      <workItem from="1726498546684" duration="603000" />
+      <workItem from="1726574489335" duration="981000" />
+      <workItem from="1726575504272" duration="2160000" />
+      <workItem from="1726595544350" duration="3691000" />
     </task>
     <servers />
   </component>

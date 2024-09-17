@@ -11,22 +11,25 @@ public class player : MonoBehaviour
 {
     public int velocidade = 4;
     public int forcaPulo = 35;
-    public bool noChão;
-    
-    private Rigidbody rb;
+    public bool noChao;
 
+    private Rigidbody rb;
+    private AudioSource source;
 
     void Start()
     {
-       Debug.Log("star");
+        Debug.Log("START");
         TryGetComponent(out rb);
+        TryGetComponent(out source);
     }
 
-   private void onCollisionEnter(Collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        if (!noChao && collision.gameObject.tag == "Chão")
+        {
+            noChao = true;
+        }
     }
-
     void Update()
     {
         Log("update");
@@ -35,31 +38,21 @@ public class player : MonoBehaviour
 
         UnityEngine.Vector3 direcao = new Vector3(h, 0, v);
         rb.AddForce(direcao * velocidade * Time.deltaTime, ForceMode.Impulse);
-        
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            
-            rb.AddForce(Vector3.up * (float)ForceMode.Impulse);
 
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                rb.AddForce(Vector3.up * forcaPulo, ForceMode.Impulse);
-            }
-            
-            
-            
-            
-            
+        if (Input.GetKeyDown(KeyCode.Space) && noChao)
+        {
+         // pulo
+         source.Play();
+         
+            rb.AddForce(Vector3.up * forcaPulo, ForceMode.Impulse);
+            noChao = false;
         }
-        
+
         if (transform.position.y < -5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        
-        
     }
 }
-                
 
             
